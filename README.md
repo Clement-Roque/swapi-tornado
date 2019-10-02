@@ -45,6 +45,7 @@ Une fois le serveur démarré, il est possible d'executer les requêtes REST sui
 
  - **GET** : Récupérer des personnages dans la base
  >Depuis http://localhost:8888/people/ pour récupérer l'ensemble des personnages présents dans la base
+ 
  >Depuis http://localhost:8888/people/{id} pour récupérer un personnage en particulier grâce à son id 
  - **POST** : Ajouter un personnage dans la base
  >Depuis http://localhost:8888/people/ et en passant en parametre de la requêtes un personnage au format JSON suivant :
@@ -106,4 +107,5 @@ Dans le cadre de ce projet, j'ai pris les décisions suivantes :
  Ils doivent donc conserver une certaine cohérence.
  
  - Dans la base de données fournie initialement, les liens des personnages entre leurs films, espèces, vaisseaux et véhicules sont présents dans des tables de correspondance dédiées (et ce malgré la présence d'un champs spécifique dans la table *People*).
+ 
 J'ai conservé cette logique dans la conception de mon application.
