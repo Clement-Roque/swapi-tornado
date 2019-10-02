@@ -107,5 +107,4 @@ Dans le cadre de ce projet, j'ai pris les décisions suivantes :
  Ils doivent donc conserver une certaine cohérence.
  
  - Dans la base de données fournie initialement, les liens des personnages entre leurs films, espèces, vaisseaux et véhicules sont présents dans des tables de correspondance dédiées (et ce malgré la présence d'un champs spécifique dans la table *People*).
- 
 J'ai conservé cette logique dans la conception de mon application.
