@@ -27,11 +27,14 @@ Des informations sur **pipenv** et son installation son disponibles à cette adr
   
 ## Mise en place du projet
 Une fois le projet cloné, placez vous à sa racine depuis un terminal  et lancez la commande d'installation des dépendances :
+
 `$> pipenv install --dev` pour installer les dépendances de tests et de fonctionnement de de l'API
+
 `$> pipenv install` pour installer uniquement les dépendances de fonctionnement de l'application
 
 ## Démarrage de l'API
 Pour lancer le serveur API, exécutez la commande suivante dans un terminal depuis la racine du projet :
+
 `$> pipenv run python3 project/app.py`
 Le serveur va se mettre en route et sera accessible à l'adresse suivante :
 http://localhost:8888/
