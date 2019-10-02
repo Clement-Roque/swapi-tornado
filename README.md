@@ -91,6 +91,7 @@ Une fois le serveur démarré, il est possible d'executer les requêtes REST sui
  
 ## Lancement des tests
 Pour lancer l'ensemble des tests, exécutez la commande suivante dans un terminal depuis la racine du projet :
+
 `$> pipenv run pytest test/`
 
 **ATTENTION  !** 
